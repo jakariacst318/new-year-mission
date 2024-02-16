@@ -48,9 +48,8 @@ header {
 }
 
 .categories-title h1,
-p,
 h2 {
-    font-family: "Andika", sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
 }
 
@@ -62,7 +61,8 @@ h2 {
 
 .categories-title p {
     color: #ff0000;
-    padding-bottom: 15px;
+    font-family: "Andika", sans-serif;
+    font-weight: 700;
 
 }
 
@@ -117,7 +117,7 @@ h2 {
 /* wellcome-party location 2024 */
 
 .wellcome-party-location {
-    font-family: "Andika", sans-serif;
+    font-family: sans-serif;
     text-align: center;
     background-color: #ffe6e6;
     font-size: 30px;
@@ -210,8 +210,10 @@ h2 {
     padding: 0 110px;
     font-size: 20px;
     color: #666362;
+    font-family: sans-serif;
 }
 .subscribe-tex input{
+    font-family: sans-serif;
     margin: 40px 0;
     border: none;
     outline: 0;
@@ -223,3 +225,51 @@ h2 {
     border-radius: 0 50px 50px 0;
 }
 /* subscribe-news end */
+
+/* footer  section start*/
+footer{
+    background-color: #070211;
+    width: 100%;
+    height: 540px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+    
+}
+.contact p{
+    color: #fff;
+    padding: 5px 0;
+}
+.contact-address{
+    padding-top: 60px;
+}
+.hr{
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 20px 0;
+}
+.contact-web i{
+    padding-right: 10px;
+}
+.social-media{
+    text-align: center;
+    margin: 25px 0;
+    
+}
+.social-media img{
+    max-width: 64px;
+    max-height: 64px;
+    padding-right: 15px;
+}
+.cupy-right{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+    
+}
+.cupy-right p{
+    color: #fff;
+    
+}
