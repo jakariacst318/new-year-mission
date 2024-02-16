@@ -190,3 +190,36 @@ h2 {
     padding-top: 25px;
 }
 /*  portfolio section  end */
+
+/* subscribe-news start */
+.subscribe-news{
+    text-align: center;
+    margin: 0px 120px;
+}
+.subscribe-img img{
+    max-width: 150px;
+    max-height: 150px;
+    padding-bottom: 40px;
+}
+.subscribe-tex h2{
+    font-size: 45px;
+    color: #070211;
+    padding-bottom: 20px;
+}
+.subscribe-tex p{
+    padding: 0 110px;
+    font-size: 20px;
+    color: #666362;
+}
+.subscribe-tex input{
+    margin: 40px 0;
+    border: none;
+    outline: 0;
+    padding: 20px 50px;
+    font-size: 22px;
+    background-color: #ffe6e6;
+}
+.subscribe-tex button{
+    border-radius: 0 50px 50px 0;
+}
+/* subscribe-news end */
