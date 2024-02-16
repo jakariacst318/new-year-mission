@@ -306,7 +306,7 @@ footer {
     padding: 5px 0;
 }
 
-.contact-address {
+.contact-address , .contact-web{
     padding-top: 60px;
 }
 
