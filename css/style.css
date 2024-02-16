@@ -15,6 +15,10 @@
     font-family: "Andika", sans-serif;
 }
 
+/* .primary-button:hover{
+    background-color: aqua;
+} */
+
 header {
     background-image: url("../images/Banner\ Image.png");
     background-repeat: no-repeat;
@@ -183,36 +187,46 @@ h2 {
     max-width: 400px;
 }
 
+.portflio-img-title:hover {
+    transform: scale(1.1);
+    transition-duration: 3s;
+}
+
 .portflio-img-2 {
     display: flex;
     justify-content: space-between;
     gap: 25px;
     padding-top: 25px;
 }
+
 /*  portfolio section  end */
 
 /* subscribe-news start */
-.subscribe-news{
+.subscribe-news {
     text-align: center;
     margin: 0px 120px;
 }
-.subscribe-img img{
+
+.subscribe-img img {
     max-width: 150px;
     max-height: 150px;
     padding-bottom: 40px;
 }
-.subscribe-tex h2{
+
+.subscribe-tex h2 {
     font-size: 45px;
     color: #070211;
     padding-bottom: 20px;
 }
-.subscribe-tex p{
+
+.subscribe-tex p {
     padding: 0 110px;
     font-size: 20px;
     color: #666362;
     font-family: sans-serif;
 }
-.subscribe-tex input{
+
+.subscribe-tex input {
     font-family: sans-serif;
     margin: 40px 0;
     border: none;
@@ -221,55 +235,66 @@ h2 {
     font-size: 22px;
     background-color: #ffe6e6;
 }
-.subscribe-tex button{
+
+.subscribe-tex button {
     border-radius: 0 50px 50px 0;
 }
+
 /* subscribe-news end */
 
 /* footer  section start*/
-footer{
+footer {
     background-color: #070211;
     width: 100%;
     height: 540px;
 }
-.contact{
+
+.contact {
     display: flex;
     justify-content: space-between;
     padding: 30px 200px;
-    
+
 }
-.contact p{
+
+.contact p {
     color: #fff;
     padding: 5px 0;
 }
-.contact-address{
+
+.contact-address {
     padding-top: 60px;
 }
-.hr{
+
+.hr {
     margin: 0 auto;
     max-width: 70%;
     padding: 20px 0;
 }
-.contact-web i{
+
+.contact-web i {
     padding-right: 10px;
 }
-.social-media{
+
+.social-media {
     text-align: center;
     margin: 25px 0;
-    
+
 }
-.social-media img{
+
+.social-media img {
     max-width: 64px;
     max-height: 64px;
     padding-right: 15px;
 }
-.cupy-right{
+
+.cupy-right {
     display: flex;
     justify-content: space-between;
     padding: 30px 200px;
-    
+
 }
-.cupy-right p{
+
+.cupy-right p {
     color: #fff;
-    
+
 }
