@@ -176,17 +176,20 @@ h2 {
     border-radius: 50%;
     padding: 15px;
 }
-.celebrity-year h1{
+
+.celebrity-year h1 {
     color: #ff0000;
     font-size: 48px;
     font-family: sans-serif;
 }
-.celebrity-year p{
+
+.celebrity-year p {
     color: #666362;
     font-size: 20px;
     margin: 16px 0;
     font-family: sans-serif;
 }
+
 /* celebrity-year end */
 
 /* portfolio section  start */
@@ -194,7 +197,9 @@ h2 {
     margin: 0px 80px;
 }
 
+
 .portfolio-text h3 {
+    font-family: sans-serif;
     font-size: 24PX;
     color: #ff0000;
 }
