@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: "Brygada 1918", serif;
 }
+
 .primary-button {
     color: #ffffff;
     background-color: #ff0000;
@@ -123,13 +124,17 @@ h2 {
     font-weight: 700;
     padding: 40px 0px;
     margin: 120px 100px;
+    color: #070211;
 }
-.impordent-color{
+
+.impordent-color {
     color: #ff0000;
 }
-.wellcome-party-location button{
+
+.wellcome-party-location button {
     margin-top: 40px;
 }
+
 /* wellcome-party location end 2024 */
 
 
@@ -139,3 +144,49 @@ h2 {
 
 
 /* bonush mark kaj pore korbo  */
+
+/* portfolio section  start */
+.portfolio {
+    margin: 0px 80px;
+}
+
+.portfolio-text h3 {
+    font-size: 24PX;
+    color: #ff0000;
+}
+
+.portfolio-text h2 {
+    font-size: 45PX;
+    color: #070211;
+}
+
+.portfolio-text p {
+    color: #666362;
+    font-size: 20px;
+}
+
+.portfolio-img {
+    padding-bottom: 120px;
+}
+
+
+.portflio-img-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 40px;
+
+}
+
+.portflio-img-1 img,
+.portflio-img-2 img {
+    max-width: 400px;
+}
+
+.portflio-img-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 25px;
+}
+/*  portfolio section  end */
