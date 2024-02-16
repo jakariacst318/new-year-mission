@@ -140,14 +140,54 @@ h2 {
 }
 
 /* wellcome-party location end 2024 */
+/* celebrity-year  */
 
+.celebrity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px 0 90px;
+    gap: 60px;
+    margin-bottom: 120px;
 
+}
 
-/* bonush mark kaj pore korbo  */
+.celebrity-offer .offer {
+    font-family: sans-serif;
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 700;
+}
 
+.celebrity-offer h2 {
+    font-size: 45px;
+    padding: 20px 0;
+    font-family: "Andika";
+}
 
+.celebrity-offer p {
+    color: #666362;
+    font-family: sans-serif;
+    font-size: 20px;
+}
 
-/* bonush mark kaj pore korbo  */
+.celebrity-img {
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 15px;
+}
+.celebrity-year h1{
+    color: #ff0000;
+    font-size: 48px;
+    font-family: sans-serif;
+}
+.celebrity-year p{
+    color: #666362;
+    font-size: 20px;
+    margin: 16px 0;
+    font-family: sans-serif;
+}
+/* celebrity-year end */
 
 /* portfolio section  start */
 .portfolio {
